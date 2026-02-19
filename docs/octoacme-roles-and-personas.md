@@ -1,81 +1,69 @@
-# OctoAcme Personas
-
-This document defines typical roles and responsibilities used in OctoAcme project docs and exercises.
-
----
-
-## Developers
+## Scrum Master
 
 ### Role Summary
-Developers design, build, test, and deliver software components. They collaborate with product and project leads to implement features that meet acceptance criteria and quality standards.
+The Scrum Master facilitates agile ceremonies, coaches the team in agile practices, and removes impediments, enabling sustainable and transparent delivery.
 
 ### Responsibilities
-- Implement features and fixes to meet acceptance criteria
-- Write and maintain tests and documentation
-- Participate in design and code reviews
-- Assist in estimating and planning work
-- Help identify technical risks and propose mitigations
-
-### Goals
-- Deliver reliable, maintainable code
-- Reduce cycle time from idea to production
-- Maintain high test coverage and observability
+- Facilitate standups, sprint planning, retrospectives
+- Support the team in continuous improvement
+- Remove blockers impacting progress
+- Interface with PM for risk/escalation alignment
 
 ### Typical Communication
-- Daily standups and sprint planning
-- PR descriptions and code review comments
-- Technical design docs when needed
+- Daily and weekly ceremonies
+- Impediment and risk escalation with PM
+- Coaching notes and improvement logs
 
----
-
-## Product Managers
+## Release Manager
 
 ### Role Summary
-Product Managers define what should be built to deliver customer and business value. They own the product vision, prioritize the backlog, and measure outcomes.
+Responsible for coordinating release planning, deployment, and post-release activities, ensuring releases are smooth, documented, and recoverable.
 
 ### Responsibilities
-- Define problem statements and success metrics
-- Prioritize the roadmap and backlog
-- Collaborate with stakeholders and engineering on trade-offs
-- Validate solutions through user research and metrics
-
-### Goals
-- Maximize customer value and impact
-- Make clear, data-driven prioritization decisions
-- Ensure product-market fit and usability
+- Plan release windows and activities
+- Coordinate with QA, Dev, Support
+- Prepare rollback and release notes
 
 ### Typical Communication
-- Weekly alignment with PM and engineering leads
-- Roadmap updates and stakeholder briefings
-- Acceptance criteria and feature specs
+- Release kickoff and coordination meetings
+- Incident and post-release updates
 
----
-
-## Project Managers
+## Business Analyst
 
 ### Role Summary
-Project Managers coordinate delivery activities, manage schedules, risks, and communications. They enable the team to deliver on commitments efficiently.
+Translates business needs into actionable requirements and user stories, partnering with PM/PdM and stakeholders.
 
 ### Responsibilities
-- Create and maintain project plans and timelines
-- Manage risks, dependencies, and resource constraints
-- Facilitate meetings (kickoff, planning, retrospectives)
-- Ensure consistent project documentation and status reporting
-- Coordinate cross-team and stakeholder communication
+- Gather requirements and clarify business objectives
+- Support user stories creation and refinement
 
-### Goals
-- Deliver projects on time and within scope
-- Minimize unplanned work and escalations
-- Maintain transparency and alignment across stakeholders
+## UX Designer
 
-### Typical Communication
-- Weekly status updates and stakeholder reports
-- Risk registers and decision logs
-- Coordination via project boards and meeting facilitation
+### Role Summary
+Guides design and usability decisions, ensuring work products meet quality and accessibility standards.
+
+### Responsibilities
+- Create wireframes and design assets
+- Collaborate with PM, PdM, Developer
+
+## Support Engineer
+
+### Role Summary
+Handles production support, incident response, and feedback loops to development teams.
+
+### Responsibilities
+- Respond to incidents and bugs
+- Communicate feedback to PM/PdM
+
+## Technical Writer
+
+### Role Summary
+Maintains up-to-date process documentation and user-facing guides; ensures information is accessible.
+
+### Responsibilities
+- Update process docs and release notes
+- Support onboarding and usage guides
 
 ---
 
-## How these personas are used in the exercise
-- Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
-- Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
-
+Each persona’s section should include summary, responsibilities, and communication/collaboration notes. Update the doc’s intro and “How these personas are used...” section if needed.
